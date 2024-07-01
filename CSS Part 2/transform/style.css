@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: orange;
+    font-size: 8em;
+}
+
+.box{
+    margin: 100px;
+    background-color: antiquewhite;
+    /* transform: translate(100px, 50px); */
+    /* transform: rotate(220deg); */
+    transform: scale(1);
+    /* we can do like scaleY and scaleX for both diferent */
+    transform: skew(-45deg);
+}

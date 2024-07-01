@@ -1,0 +1,31 @@
+*{
+    /* margin: 20px; */
+    background-color: black;
+    color: white;
+}
+
+.main{
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box{
+    border: 1px solid yellow;
+    flex-basis: 100px;
+}
+
+.box1{
+    order: 2;
+    /* flex-grow: 1; */
+}
+
+.box2{
+    order: 3;
+}

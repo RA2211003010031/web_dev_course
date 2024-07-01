@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .boxes{
+            display: flex;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid white;
+        }
+
+        @media screen and (orientation : portrait){
+            body{
+                color: greenyellow;
+            }
+        }
+
+        @media screen and (max-width:455px){
+            body{
+                background-color: blue;
+            }
+
+            .boxes{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        Hi i am main with which color.
+    </div>
+
+    <div class="boxes">
+        <div class="box">box1</div>
+        <div class="box">box2</div>       
+        <div class="box">box3</div>
+    </div>
+</body>
+</html>

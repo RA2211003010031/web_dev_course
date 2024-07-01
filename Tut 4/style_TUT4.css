@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(194, 227, 216);
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+a:hover{
+    color: aliceblue;
+}

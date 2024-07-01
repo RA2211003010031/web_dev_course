@@ -1,0 +1,37 @@
+:root{
+    --color:white;
+    --bgcolor:rgb(70, 70, 213);
+    --nav_border : rgb(230, 11, 230);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color);
+}
+
+body{
+    background-color: var(--bgcolor);
+    padding: 2px;
+}
+
+nav{
+    height: 6vh;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid var(--nav_border);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}

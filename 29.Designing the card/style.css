@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    /* margin-top: 10%;
+    margin-left: 30%; */
+    
+    background-color: whitesmoke;
+    height: 550px;
+    width: 350px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box > img{
+    width: 50%;
+    height: 32%;
+    border-radius: 60%;
+    margin-top: 50px;
+}
+
+.box > h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgb(94 154 189);
+    margin: 40px;
+}
+
+#context{
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000c4;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 60px 0px 60px;
+    letter-spacing: 1px;
+}
+
+#circle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 30px;
+}
+
+.circles{
+    height: 13px;
+    width: 13px;
+    background-color: #8585855c;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+}
+
+.circles:first-child{
+    background-color: lightblue;
+}
+
+#end{
+    height: 45px;
+    width: 220px;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end > h3{
+    text-transform: capitalize;
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+#box1 #end{
+    background : linear-gradient(to left, #ff000075 60%, #0080007a);
+}
+
+#box2 #end{
+    background : linear-gradient(to left, #00800073 60%, #0000ff7d);
+}
+
+#box3 #end{
+    background : linear-gradient(to left, #0000ff69 60%, #ff00007d);
+}

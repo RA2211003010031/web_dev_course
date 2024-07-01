@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(62, 61, 59);
+}
+
+body{
+    height: 2000px;
+}
+
+.box {
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: rgb(177, 174, 174);
+    color: rgb(4, 3, 3);
+}
+
+#two{
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+
+#one{
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+
+#three{
+    position: sticky;
+    top: 0px;
+}

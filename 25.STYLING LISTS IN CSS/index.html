@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLING LISTS IN CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav{
+            padding: 30px;
+        }
+
+        nav ul{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15vw;
+        }
+        
+        nav ul li{
+            list-style:armenian;
+            list-style-position: inside;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+</body>
+</html>

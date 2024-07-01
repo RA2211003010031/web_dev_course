@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-shadow: 4px 3px 2px green, 4px 3px red;
+}
+
+.box{
+    color: red;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 20px green, 18px 18px 20px rgb(255, 255, 255);
+}

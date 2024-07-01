@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(72, 61, 61);
+    margin: 10%;
+}
+
+h1{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+input{
+    background-color:azure;
+    text-align: center;
+
+}
+
+form{
+    height: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 100px;
+    border: 5px solid red;
+}
+
+form:hover{
+    background-color:yellow;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+#lastCell{
+    text-align: center;
+    margin: auto;
+    background-color: brown;
+}

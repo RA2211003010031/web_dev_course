@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(61, 58, 58);
+    color: wheat;
+}
+
+h1{
+    border: 2px solid red;
+    background-color: red;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+p{
+    background-color: aqua;
+    color: brown;
+}
