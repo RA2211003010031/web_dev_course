@@ -1,0 +1,14 @@
+.container{
+    height: 80vh;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    
+}
+
+.item{
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(182, 182, 247);
+    border: 1px solid black;
+}
