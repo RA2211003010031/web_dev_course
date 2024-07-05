@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition property CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+        }
+
+        .container{
+            height: 50vh;
+            width: 90vw;
+            background-color: rgb(23, 15, 15);
+            margin: 10px;
+        }
+
+        .box{
+            background-color: red;
+            height: 5vh;
+            width: 10vw;
+            transition-property: transform background-color;
+            transition-duration: 3s;
+            transition-delay: 1s;
+            /* transition-timing-function: ease-in-out; */
+            transition-timing-function: cubic-bezier(0.03, 0.73, 0.58, 1);
+        }
+
+        .translate{
+            transform: translateX(50vh) translateY(20vw) scale(1.5) rotate(1turn);
+            background-color: blueviolet;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate">
+            HI
+        </div>
+    </div>
+</body>
+</html>
