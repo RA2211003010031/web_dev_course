@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            position: relative;
+            background-color: rgb(246, 248, 226);
+            height: 80vh;
+            width: 80vw;
+        }
+
+        .box {
+            position: absolute;
+            background-color: rgb(25, 0, 255);
+            height: 2vh;
+            width: 2vw;
+            border-radius: 100%;
+            animation: ball .5s linear 1s infinite alternate;
+        }
+
+        @keyframes ball {
+            from {
+                /* transform: translateX(0); */
+                background-color: black;
+                transform: translateX(38vw) translateY(5vh);
+            }
+
+            to {
+                transform: translateX(38vw)translateY(65vh) scale(5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
