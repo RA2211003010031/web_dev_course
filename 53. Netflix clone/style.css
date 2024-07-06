@@ -63,6 +63,10 @@ nav button {
     padding: 0px 30px;
 }
 
+.hero-buttons button {
+    cursor: pointer;
+}
+
 
 /* > = Immediate symbol (immediate child) */
 .hero> :first-child {
@@ -133,7 +137,7 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,34 +147,111 @@ nav button {
     height: 60vh;
 }
 
-.secImg{
+.secImg {
     position: relative;
 
 }
 
-.secImg img{
+.secImg img {
     width: 30vw;
     position: relative;
     z-index: 1;
 }
 
-.secImg video{
+.secImg video {
     position: absolute;
     top: 51px;
-    right: 0;
+    /* right: 0; */
 }
 
-section.first > div{
+section.first>div {
     display: flex;
     flex-direction: column;
 }
 
-.first > div :first-child{
+.first>div :first-child {
     font-size: 48px;
     font-weight: 900;
 }
 
-.first > div :nth-child(2){
+.first>div :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
+}
+
+.faq {
+    background-color: RGBA(0, 0, 0, 0);
+    color: RGB(255, 255, 255);
+    padding: 30px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faqbox {
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 64vw;
+    margin: 21px auto -12px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    cursor: pointer;
+}
+
+.zero {
+    /* border: 2px solid red; */ 
+    margin: 49px auto;
+    /* font-family: 'Martel Sans', sans-serif; */
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* position: relative; */
+    gap: 15px;
+    /* padding: 0px 30px; */
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+
+}
+
+.zero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.zero-buttons button:hover{
+    cursor: pointer;
+}
+
+.zero-buttons input {
+    font-size: 16px;
+    line-height: 24px;
+    /* font-weight: 400; */
+    color: white;
+    border: 1px solid white;
+    background-color: #0F0F0F;
+    padding-left: 15px;
+    padding-right: 155px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+}
+
+.zero-buttons input::placeholder{
+    color: rgb(224, 224, 224);
 }
