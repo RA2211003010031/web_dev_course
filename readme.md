@@ -1,2 +1,5 @@
-# => SIGMA WEB DEVELOPMENT <=
-All of my practices done during sigma web dev course will be uploaded here!
+# WEB DEVELOPMENT 
+
+This repo is for my web development practice journey
+
+## Currently I'm doing SIGMA WEB DEVELOPMENT    of CodeWithHarry
