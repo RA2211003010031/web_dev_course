@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+<body>
+    
+    <script>
+        console.log("This is promises!")
+
+        let prom1 = new Promise((resolve, reject) => {
+          let a = Math.random()
+          if(a<0.5){
+            reject(`Value of a = ${a} which is less than 0.5, that's why we are rejecting you!`)
+          }
+          else {
+            setTimeout(() => {
+                console.log("Running the timeout function.")
+                resolve("Adarsh");
+            }, 3000);
+          }
+        })
+
+        prom1.then((a) => {
+            console.log(a)
+        }).catch((err) => {
+            console.log(err)
+        })
+        
+    </script>
+</body>
+</html>
